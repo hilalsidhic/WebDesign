@@ -1,0 +1,31 @@
+var num=10
+var name="crossroads"
+let palce="calicut"
+const pi=3.14
+for loop,if 
+
+function display(){            //no type
+
+}
+array
+
+var arr=["aap","aj"]
+
+object(multiple items in same key and value)
+
+var obj={
+    name:"jsdhjws",
+    place:"jsds",
+}
+
+
+output
+
+
+print-- console.log("number is greater than 5")
+
+
+
+document.getelementbyid("")
+
+WINDOW.ALERT("BUTTON CLICKED")

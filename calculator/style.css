@@ -1,0 +1,48 @@
+#calculator{
+    width: 400px;
+    height: 500px;
+    border: solid 1px;
+    border-radius: 6px;
+    background: khaki;
+    margin-left: 450px;
+}
+#outputBox{
+    width:100%;
+    height: 70px;
+    background: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: right;
+}
+.rows{ 
+   
+    
+    
+}
+button{
+    width: 97px;
+    height: 86px; 
+    background: steelblue;
+    font-size: x-large;
+    color: white;
+    border-radius: 40%;
+    border: none;
+
+}
+.ca{
+    width:100%
+}
+.specs{
+    color: yellow;
+    background: red;
+    height: 80px ;
+    border-radius: 6px;
+}
+.specta{
+    color: rgb(8, 4, 4);
+    background: turquoise;
+}
+#qwe{
+    all: initial;
+}

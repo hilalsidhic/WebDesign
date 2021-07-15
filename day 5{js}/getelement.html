@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" id="npp" placeholder="number 1">
+    <input type="number" id="nss" placeholder="number 2"><br>
+    <button onclick="jss()">Add the numbers</button><br>
+    <button onclick="product()">multiply</button>
+    <button onclick="reset()">reset</button><br>
+    <input type="text" id="name">
+    <button onclick="HELP()">type</button>
+    <h1 id="remo"></h1>
+    <p id="demo"></p>
+    
+    <script>
+        function HELP()
+        {
+            var names=document.getElementById("name").value
+            document.getElementById("remo").innerHTML=names
+            if(names=="hilal")
+            {
+                alert("NOOOOO")
+            }
+        }
+        function jss()
+        {   
+            window.alert("button clicked")
+            var inp=Number(document.getElementById("npp").value);
+            var imp=Number(document.getElementById("nss").value);
+            var sum=inp+imp  
+            document.getElementById("demo").innerHTML=sum;
+        }
+        function product()
+        {   alert("fg")
+            var inp=Number(document.getElementById("npp").value);
+            var imp=Number(document.getElementById("nss").value);
+            var prod=inp*imp  
+            document.getElementById("demo").innerHTML=prod;
+        }
+        function reset()
+        {
+            document.getElementById("npp").value=null
+            document.getElementById("nss").value=null
+            document.getElementById("demo").innerHTML=null
+        }
+    </script>
+</body>
+</html>

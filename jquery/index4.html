@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <button id="startza" onclick="startcount()">start count</button>
+    <input type="text" id="timeza">
+    <button onclick="stopcount()">stop count</button>
+    <script>
+        var c=0;
+        var t;
+        var status=0;
+        function counttime() {
+            document.getElementById("timeza").value=c;
+            c=c+1;
+            t=setTimeout(counttime,1000);
+            
+        }
+        function startcount(){
+            if(!status)
+            {
+                status=1;
+                counttime();
+            }
+        }
+        function stopcount(){
+            status=0;
+            clearTimeout(t);
+            
+        }
+
+                
+         
+
+            
+      
+    </script>
+    
+</body>
+</html>

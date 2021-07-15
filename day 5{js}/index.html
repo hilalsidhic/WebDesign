@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="show()">Click me</button>
+    <script>
+        function show(){
+            display()
+            console.log("button clicked")
+            var a=1;
+            var b=2;
+            var sum=a+b
+            console.log("sum="+sum)
+
+            var c=4;
+            var c=6;
+            console.log("c="+c)
+
+            let d=4;            //can change vlaue but dont use let
+            d=6;
+            console.log("d="+d)
+
+            const e=10
+            
+
+            if(e%2==0){
+            console.log("e is even number")}
+
+            for(var i=0;i<10;i++)
+            {
+                console.log(i)
+            }
+            var arr=["apple","orange","banana",37]
+            console.log(arr)
+            console.log(arr[2])
+
+            var person={
+                name:"Hilal",
+                age:20,
+                place:"ernakulam"
+            }
+            console.log(person)
+            console.log("Name:"+person.name)
+            console.log("Age:"+person.age)
+
+            var fruits=[{
+                fruit:"watermelon",
+                status:"good"   
+            },{
+                fruit:"orange",
+                status:"good"
+
+            },{
+                fruit:"passion fruit",
+                status:"bad"
+
+            }]
+            console.log(fruits)
+            console.log(fruits[2])
+            console.log(fruits[1].fruit)
+
+            function display()
+            {
+                console.log("hey")
+            }
+            
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
